@@ -1,0 +1,10 @@
+Kode ini adalah code PHP yang memiliki upload file tersembunyi dan fitur RCE (Remote Code Execution).
+Secara default, halaman hanya menampilkan dashboard biasa, sedangkan fitur upload dan RCE hanya bisa diakses melalui URL tertentu.
+Dan memungkinkan menguploads kembali webshell yang pindah tangan
+
+Cara penggunakan
+1.sisipkan code php ini di index.php paling atas 
+2.buka index php di website contoh https://target.com/index.php dan tambahkan menjadi https://target.com/index.php?admin=upload
+3.tempat upload tersembunyi akan muncul dan tinggal upload kembali webshell anda dan mengaksesnya contoh https://target.com/uploads/shell.php
+
+Thanks to Orang-Baik
