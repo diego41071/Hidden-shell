@@ -1,0 +1,5 @@
+cara akses
+target.com?pass=nyenye
+
+jika ingin mengganti password ubah sesuka hati 
+"$password ="nyenye";   // Your Password"
